@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b21b4517-5e75-44e9-a0af-c73d1eea6b1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/constants/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/constants/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/constants/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/constants/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/constants/Rows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/constants/Rows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/IStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/IStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/SudokuGame.java" afterDir="false" />
+    <list default="true" id="b21b4517-5e75-44e9-a0af-c73d1eea6b1f" name="Changes" comment="INITIAL COMMIT">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +42,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1708710967694</updated>
     </task>
+    <task id="LOCAL-00001" summary="INITIAL COMMIT">
+      <created>1708713536608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708713536608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +77,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INITIAL COMMIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT" />
   </component>
 </project>
