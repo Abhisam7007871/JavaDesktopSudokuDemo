@@ -1,2 +1,7 @@
-package sudoku.constants;public class GameState {
+package sudoku.constants;
+
+public enum GameState {
+    COMPLETE,
+    ACTIVE,
+    NEW
 }

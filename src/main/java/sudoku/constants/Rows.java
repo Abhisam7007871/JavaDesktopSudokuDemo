@@ -1,2 +1,7 @@
-package sudoku.constants;public enum Rows {
+package sudoku.constants;
+
+public enum Rows {
+    TOP,
+    MIDDLE,
+    BOTTOM
 }
