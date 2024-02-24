@@ -7,10 +7,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.Stack;
 
 public class SudokuApplication extends Application {
-    private IUserInterfaceContract.ViewuiImpl;
+    private IUserInterfaceContract.View uiImpl;
 
 
     public void start(Stage primaryStage) throws Exception{
