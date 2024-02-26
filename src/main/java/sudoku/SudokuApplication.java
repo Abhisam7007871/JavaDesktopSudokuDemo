@@ -5,24 +5,27 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import sudoku.buildLogic.SudokuBuildLogic;
+import sudoku.userinterface.IUserInterfaceContract;
+import sudoku.userinterface.UserInterfaceImpl;
 
 import java.io.IOException;
 
 public class SudokuApplication extends Application {
     private IUserInterfaceContract.View uiImpl;
 
-
-    public void start(Stage primaryStage) throws Exception{
+    @Override
+    public void start(Stage primaryStage) throws IOException{
         uiImpl = new UserInterfaceImpl(primaryStage);
-        try{
+        try {
             SudokuBuildLogic.build(uiImpl);
-        }catch(IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
             throw e;
         }
     }
 
-    public static void main(String[] arga){
+    public static void main(String[] args){
         launch(args);
     }
 

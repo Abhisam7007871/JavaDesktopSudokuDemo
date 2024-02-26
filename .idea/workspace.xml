@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b21b4517-5e75-44e9-a0af-c73d1eea6b1f" name="Changes" comment="INITIAL COMMIT">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/SudokuTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+    <list default="true" id="b21b4517-5e75-44e9-a0af-c73d1eea6b1f" name="Changes" comment="[FEATURE] UserInterfaceImpl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/buildLogic/SudokuBuildLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationLogic/GameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationLogic/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationLogic/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationLogic/SudokuUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/Logic/ControlLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/constants/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/constants/Messages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/SudokuGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/SudokuTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/SudokuTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +57,30 @@
     "last_opened_file_path": "C:/Users/Avshek Sharma/Downloads/openjfx-21.0.2_windows-x64_bin-sdk/javafx-sdk-21.0.2/lib",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="SudokuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.SudokuApplication" />
+      <module name="JavaDesktopSudokuDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SudokuApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708714416887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[FEATURE] UserInterfaceImpl">
+      <created>1708759419843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708759419843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INITIAL COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT" />
+    <MESSAGE value="[FEATURE] UserInterfaceImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] UserInterfaceImpl" />
   </component>
 </project>
